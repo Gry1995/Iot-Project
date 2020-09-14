@@ -14,8 +14,10 @@
   3. Download VNC from [site](https://www.realvnc.com/en/connect/download/viewer/).
   4. Use ip, pw and user name to login.
 ## 3. Startup Mailer
-  1. Clone the IoT repository on a Raspberry Pi
-  ```py
-  $ git clone https://github.com/kevinwlu/iot.git
+  1. Can't generate Gmail 2-step password, use other e-mail instead.
+  2. Switch ```smtp``` on and get ```authorization code``` and ```host```.
+  3. Create and edit ```mailer.py```.
+  4. Edit ```rc.local``` to sent e-mail when reboot.
+  ```python
+  python /home/pi/mailer.py
   ```
-  >Cite from https://github.com/kevinwlu/iot/tree/master/lesson1
