@@ -19,5 +19,6 @@
   3. Create and edit ```mailer.py```.
   4. Edit ```rc.local``` to sent e-mail when reboot.
   ```python
+  nano /etc/rc.local
   python /home/pi/mailer.py
   ```
