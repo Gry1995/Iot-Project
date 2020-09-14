@@ -1,7 +1,9 @@
 # Lesson1 step and code:
 ## 1.Configuration
   1.Copy OS to tf card.
+  
   2.Reset password and connect Wi-Fi.
+  
   3.Get IP address.
 ## 2.Install VNC
   1.Open Terminal and clone code.
