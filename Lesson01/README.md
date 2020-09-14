@@ -15,7 +15,7 @@
   4. Use ip, pw and user name to login.
 ## 3. Startup Mailer
   1. Can't generate Gmail 2-step password, use other e-mail instead.
-  2. Switch ```smtp``` on and get ```authorization code``` and ```host```.
+  2. Switch  ```smtp``` on, get ```authorization code``` and ```host```.
   3. Create and edit [mailer.py](https://github.com/Gry1995/Iot-Project/blob/master/Lesson01/mailer.py).
   4. Edit ```rc.local``` to sent e-mail when reboot.
   ```python
