@@ -1,17 +1,13 @@
 #!/usr/bin/env bash
 set -e
-
-
 function info { echo -e "[Info] $*"; }
 function error { echo -e "[Error] $*"; exit 1; }
 function warn  { echo -e "[Warning] $*"; }
-
 warn ""
 warn "If you want more control over your own system, run"
 warn "Home Assistant as a VM or run Home Assistant Core"
 warn "via a Docker container."
 warn ""
-
 ARCH=$(uname -m)
 DOCKER_BINARY=/usr/bin/docker
 DOCKER_REPO=homeassistant
