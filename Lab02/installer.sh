@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+
 function info { echo -e "[Info] $*"; }
 function error { echo -e "[Error] $*"; exit 1; }
 function warn  { echo -e "[Warning] $*"; }
