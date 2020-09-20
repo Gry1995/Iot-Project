@@ -10,14 +10,14 @@
   sudo nano /etc/docker/daemon.json
   
   {
-  "registry-mirrors": ["https://registry.docker-cn.com"] #A cn source
+  "registry-mirrors": ["https://registry.docker-cn.com"] # A cn source
   }
   ```
   4. Restart docker.
   ```python
   sudo systemctl restart docker
   ```
-  5. Install a GUI for docker(portainer for example)
+  5. Install a GUI for docker (portainer for example)
   ```python
   docker pull  portainer/portainer:linux-arm
   # Open it at port 9000
