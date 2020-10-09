@@ -1,4 +1,4 @@
-# install Home Assistant to raspberry Pi (use docker):
+# Install Home Assistant to raspberry Pi (use docker):
 ## 1. Install docker
   1. Change source if you are outside of US or UK.
   2. Install docker
@@ -36,9 +36,9 @@
 ## 3. Tips
   1. After several updates in 2020, many community functions have been integrated into the integration, which made many early tutorials no longer applicable. Searching integration and configuring integration need refer to [official documents.](https://www.home-assistant.io/integrations/)
   2. There are other ways to install Home Assistant. You can compare them [here.](https://www.home-assistant.io/docs/installation/)
-  3. Supervisor offers you many of great features. Recommended install MQTT and File editor. 
+  3. Supervisor offers you many of great features. Recommended install `MQTT` and `File editor`. 
   4. Also you could add other repositories to your Addon store.
-  5. File editor add-on allow you to write configurations on a web UI. The `configuration.yaml` is the most important file, some of integrations required to be setup here.
+  5. `File editor` add-on allow you to write configurations on a web UI. The `configuration.yaml` is the most important file, some of integrations required to be setup here.
   6. New version of HASS.io offers web UI to configure Automations, Scenes and Scripts, but you can also write them manually on `Scenes.yaml` `Scripts.yaml` `Automations.yaml`. 
   7. Some community features may not include in Addon store or Integration. You can add them by create a folder under `/config/custom_components/`.
   8. After changing the `configuration.yaml` you may have to reboot the HASS.io.
