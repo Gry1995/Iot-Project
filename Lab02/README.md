@@ -17,7 +17,7 @@
   ```python
   sudo systemctl restart docker
   ```
-  5. Install a GUI for docker (portainer for example)
+  5. Install a GUI for docker (Portainer for example)
   ```python
   docker pull  portainer/portainer:linux-arm
   # Open it at port 9000
@@ -30,6 +30,6 @@
   curl -sL https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh | bash -s
   ```
   >cite from https://github.com/home-assistant/supervised-installer
-  2. Use IP:8123 to enter GUI of HA
+  2. Use http://IP:8123 to enter the GUI of HASS.io
   2. Read [Docs](https://www.home-assistant.io/docs/0) for help.
   3. Get HomeKit component if you want to controll your devices by iOS or MacOS.
