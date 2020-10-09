@@ -1,4 +1,4 @@
-# Lab 02 install Home Assistant to raspberry Pi (use docker):
+# install Home Assistant to raspberry Pi (use docker):
 ## 1. Install docker
   1. Change source if you are outside of US or UK.
   2. Install docker
@@ -33,3 +33,5 @@
   2. Use http://IP:8123 to enter the GUI of HASS.io
   2. Read [Docs](https://www.home-assistant.io/docs/0) for help.
   3. Get HomeKit component if you want to controll your devices by iOS or MacOS.
+## 3. Tips
+  1. After several updates in 2020, many community functions have been integrated into the integration, which made many early tutorials no longer applicable. Searching integration and configurating integration need refer to [official documents](https://www.home-assistant.io/integrations/)
