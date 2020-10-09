@@ -17,7 +17,7 @@
   ```python
   sudo apt-get install xrdp
   ```
-  4. Use ip, pw and user name to login.
+  4. Use `IP`, `PW` and `User name` to login.
 ## 3. Startup Mailer
   1. Can't generate Gmail 2-step password, use other e-mail instead.
   2. Switch  ```smtp``` on, get ```authorization code``` and ```host```.
