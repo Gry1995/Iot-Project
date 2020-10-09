@@ -13,7 +13,7 @@
   2. Interfacing `Options` -> `VNC` -> `Yes`.
   3. Download VNC from [site](https://www.realvnc.com/en/connect/download/viewer/).
   
-  Or you can install Xrdp to controll your Pi by Windows Mstsc.
+      Or you can install Xrdp to controll your Pi by Windows Mstsc.
   ```python
   sudo apt-get install xrdp
   ```
