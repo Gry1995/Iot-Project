@@ -25,23 +25,23 @@
 ## 5. RF Code Learning
   1. Press learning button and send RF signal on web UI or Homekit.
   2. You will find the red led switch on, which means the RF launcher is sending signal and your PC will power on.
-## 6. A Problem
+## 6. Display Problem
   1. The button of PC will always be displayed as on after you sent the RF signal, but in fact, the relay turns off after an instant on. And this problem can not be fixed at Configuration.yaml.
   2. Here I use automation to solve this problem.
   3. Setup a new automation
   ```python
     trigger:
-  - platform: state
-    entity_id: switch.pc
-    from: 'off'
-    to: 'on'
-  condition: []
-  action:
-  - delay: '0.5'
-  - service: switch.turn_off
-    data: {}
-    entity_id: switch.pc
-  mode: single
+      - platform: state
+        entity_id: switch.pc
+        from: 'off'
+        to: 'on'
+      condition: []
+    action:
+      - delay: '0.5'
+      - service: switch.turn_off
+        data: {}
+        entity_id: switch.pc
+    mode: single
   ```
   4. When the state of PC change from off to on, the system will call the `service: switch turn off` after 0.5 second. 
       
