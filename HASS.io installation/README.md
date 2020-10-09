@@ -32,7 +32,7 @@
   >cite from https://github.com/home-assistant/supervised-installer
   2. Use http://IP:8123 to enter the GUI of HASS.io
   2. Read [Docs](https://www.home-assistant.io/docs/0) for help.
-  3. Get HomeKit component if you want to controll your devices by iOS or MacOS.
+  3. Get HomeKit component if you want to control your devices by iOS or MacOS.
 ## 3. Tips
   1. After several updates in 2020, many community functions have been integrated into the integration, which made many early tutorials no longer applicable. Searching integration and configuring integration need refer to [official documents.](https://www.home-assistant.io/integrations/)
   2. There are other ways to install Home Assistant. You can compare them [here.](https://www.home-assistant.io/docs/installation/)
