@@ -12,10 +12,11 @@
   ```
   2. Interfacing `Options` -> `VNC` -> `Yes`.
   3. Download VNC from [site](https://www.realvnc.com/en/connect/download/viewer/).
-      Or you can install Xrdp to controll your Pi by Windows Mstsc.
-      ```python
-      sudo apt-get install xrdp
-      ```
+  
+  Or you can install Xrdp to controll your Pi by Windows Mstsc.
+  ```python
+  sudo apt-get install xrdp
+  ```
   4. Use ip, pw and user name to login.
 ## 3. Startup Mailer
   1. Can't generate Gmail 2-step password, use other e-mail instead.
