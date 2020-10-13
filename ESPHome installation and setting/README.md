@@ -49,18 +49,18 @@
   ```
 ## ESP8266 connect to Wi-Fi(First time): HASS.io way
   1. Search and install `ESPhome` at your HASS Addon store, or use docker to install.
-  ![]()
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/addonstore.PNG)
   2. `Click plus` -> `Creat new node` -> `Name your node` -> `Select your devices` -> 'Enter your ssid/password'.
-  ![]()
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/creat%20node.PNG)
   3. You also can edit the `.yaml` file after wizard.
   4. Check, validate and compile the file to your PC.
-  ![]()
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/compile.PNG)
   5. Install serial port driver, if use `CH34X` serial port you can find drivers [here](http://www.wch-ic.com/download/ch341ser_exe.html).
   6. Install [ESPFlasher](https://github.com/esphome/esphome-flasher/releases), it can add your setting file into the board. 
   7. Now the ESP8266 will connect to the Wi-Fi, it can be upload over the air.
   
 ## Connect your ESP board to HASS.io
-  Follow [offical documents] to achive more functions of IoT.
+
   Example: use ESP8266 to test signal strength.
   1. Edit `test.yaml` file.
   ```python
@@ -71,6 +71,7 @@
   ```
   2. Validate and upload.
   3. You can add the block on your dashboard to show the date (in db)
-  ![]()
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/sensor.PNG)
   > It shows unavailable because the ESP8266 is power off
+  Follow [offical documents] to achive more functions of IoT.
 
