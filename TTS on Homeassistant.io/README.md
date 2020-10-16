@@ -23,4 +23,5 @@ Now AI is a very important part of IoT, many platforms have their own AI assitan
     
   ```
   3. However your HASS maybe is running on docker, adding the speaker to HASS as an entity need more things to do. I am going to finish it in the next part.
+
 ## Method #2 Using API of Baidu TTS
