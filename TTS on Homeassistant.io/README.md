@@ -9,7 +9,7 @@ Now AI is a very important part of IoT, many platforms have their own AI assitan
   - platform: google_translate
   
   ```
-    > https://www.home-assistant.io/integrations/tts#configuring-a-tts-platform
+      > https://www.home-assistant.io/integrations/tts#configuring-a-tts-platform
   2. Next we can call the `tts.google_translate_say` service to say something.
   ```python
   
