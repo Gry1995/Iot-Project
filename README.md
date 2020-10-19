@@ -6,6 +6,6 @@ Google Site: https://sites.google.com/view/bingshenli-ee629-project
 ## 2: [Home Assistant installation](https://github.com/Gry1995/Iot-Project/tree/master/HASS.io%20installation)
 ## 3: [GPIO control on HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/HASS.io%20controll%20GPIO%20of%20Pi/README.md)
 ## 4: [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
-
+## 5: [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
 
 
