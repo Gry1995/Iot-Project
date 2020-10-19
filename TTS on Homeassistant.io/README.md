@@ -1,7 +1,7 @@
 # TTS(Text-to-Speech) on Homeassistant.io
 Now AI is a very important part of IoT, many platforms have their own AI assitants. However, Home Assistant does not offer one. Here I want use a simple ways: `TTS` to design my own assistant. Not so smart, but can help me a lot.
 ## Method #1 Google translate TTS
-  Google translate TTS method is a very tricky and interesting way. We can use the basic function of Google translate to generate the speech we need.
+  [Google translate](https://translate.google.com/) TTS method is a very tricky and interesting way. We can use the basic function of Google translate to generate the speech we need.
   1. HASS supports Google translate TTS natively, so we can add this part to the `configuration.yaml` directly.
   ```python
   
