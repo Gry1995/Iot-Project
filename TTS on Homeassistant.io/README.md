@@ -28,4 +28,18 @@ Now AI is a very important part of IoT, many platforms have their own AI assitan
   [Baidu Cloud](https://login.bce.baidu.com/?lang=en) offers many useful `Ais` and `APIs`, and most of them are free for students such as `Speech Synthesis API`.
   1. Create a program on Baidu `Speech Synthesis API`, and system will generate `app_id` `api_key` `secret_key`, we will need them when we edit the `configuration.yaml` file. 
   2. Click on English or Chinese language pack, you will have three months credit to use this servise for free.
-  3. 
+  3. Edit `configuration.yaml` file to open TTS function.
+  ```python
+    tts:   
+      - platform: baidu      
+        app_id: xxxxxxxxxxxx
+        api_key: xxxxxxxxxxxxxxxxxxxx
+        secret_key: xxxxxxxxxxxxxxxxxxxxxxx
+        speed: 5     
+        pitch: 5     
+        volume: 15     
+        person: 0
+  ```
+## Install Mopidy on Raspberry Pi to active MPD
+  Above we added TTS servise on HASS. However, HASS maybe is running on docker, adding the speaker to HASS as an entity need a transfer. We use MPD here.
+  
