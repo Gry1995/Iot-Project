@@ -42,4 +42,21 @@ Now AI is a very important part of IoT, many platforms have their own AI assitan
   ```
 ## Install Mopidy on Raspberry Pi to active MPD
   Above we added TTS servise on HASS. However, HASS maybe is running on docker, adding the speaker to HASS as an entity need a transfer. We use MPD here.
-  
+  1. [Mopidy](https://docs.mopidy.com/en/latest/installation/) is an extensible music server written in Python.
+  2. Add the archive’s GPG key:
+  ```python
+    wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+  ```
+  3. Add the APT repo to your package sources:
+  ```python
+    sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/buster.list
+  ```
+  4. Install `Mopidy` and all dependencies:
+  ```python
+    sudo apt install mopidy
+  ```
+  5. To install `MPD`:
+  ```python
+    sudo apt install mopidy-mpd
+  ```
+  > More intsallation https://docs.mopidy.com/en/latest/installation/
