@@ -60,3 +60,19 @@ Now AI is a very important part of IoT, many platforms have their own AI assitan
     sudo apt install mopidy-mpd
   ```
   > More intsallation https://docs.mopidy.com/en/latest/installation/
+  6. Edit or create `/etc/mopidy/mopidy.conf` file, add a `MPD` section.
+  ```python
+    [mpd]
+    enabled = true
+    hostname = 127.0.0.1
+    port = 6600
+  ```
+  Or
+  ```python
+    [mpd]
+  ```
+  7. Running as a service:
+  ```python
+    sudo systemctl start mopidy 
+  ```
+  > Other command:https://docs.mopidy.com/en/latest/running/service/#service-management-on-debian
