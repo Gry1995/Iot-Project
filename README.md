@@ -8,7 +8,7 @@ Google Site: https://sites.google.com/view/bingshenli-ee629-project
 ## 4: [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
 ## 5: [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
 ## 6: [Use Google Sheet to collect data](https://github.com/Gry1995/Iot-Project/blob/master/Use%20Google%20Sheet%20to%20collect%20data/README.md)
-## 7: [Use HASS and ESPHome to control color and On/Off of RGB light strip]()
+## 7: [Use HASS and ESPHome to control color and On/Off of RGB light strip](https://github.com/Gry1995/Iot-Project/tree/master/Control%20RGB%20light%20strip)
 
 # Final Project: To be decided.
 
