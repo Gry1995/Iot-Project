@@ -1,7 +1,6 @@
 # Smart home automation based on Home-Assistant.io
 ## 1. Prerequired project:
-
-These are projects which I created and finished before, I will use them to make some automation here.
+ These are projects which I created and finished before, I will use them to make some automation here.
 
 * ### [Home Assistant installation](https://github.com/Gry1995/Iot-Project/tree/master/HASS.io%20installation)
 * ### [GPIO control on HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/HASS.io%20controll%20GPIO%20of%20Pi/README.md)
