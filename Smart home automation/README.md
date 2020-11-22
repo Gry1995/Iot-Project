@@ -13,7 +13,7 @@ These are projects which I created and finished before, I will use them to make 
 
 ### 2.1 Developer Tools: 
 
-  `Developer tools` is original function of HASS.io. It has 4 tabs: `States`, `services`, `template` and `events`. Especially for the first tab, in subsequent projects it is 
+  * `Developer tools` is original function of HASS.io. It has 4 tabs: `States`, `services`, `template` and `events`. Especially for the first tab, in subsequent projects it is 
 often necessary to monitor the states and attributes of the entity.
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/tab.png)
@@ -42,9 +42,9 @@ often necessary to monitor the states and attributes of the entity.
 
 ### 2.2 Automation editing tool
 
-  There are two ways to create automation of entities: Editing `automation.yaml` and using `automation editing tool`. Automation editing tool is very useful and easy to understand for novice.
-  Also the UI format can be converted to yaml format easy to copy and paste.
-  More information can be found at [offical website](https://www.home-assistant.io/integrations/automation).
+  * There are two ways to create automation of entities: Editing `automation.yaml` and using `automation editing tool`. Automation editing tool is very useful and easy to understand for novice.
+  * Also the UI format can be converted to yaml format easy to copy and paste.
+  * More information can be found at [offical website](https://www.home-assistant.io/integrations/automation).
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(1).png)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(2).png)
   
