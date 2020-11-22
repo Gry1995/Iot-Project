@@ -4,8 +4,9 @@
 ### [GPIO control on HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/HASS.io%20controll%20GPIO%20of%20Pi/README.md)
 ### [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
 ### [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
+### Add Google Calendar to HASS.io
 
-> These are projects which I created and finished before, I will use them to make some automation here.
+These are projects which I created and finished before, I will use them to make some automation here.
 
 ## Useful information and tools of the Home Assistant automation 
 
@@ -37,3 +38,17 @@ often necessary to monitor the states and attributes of the entity.
   data: 
     information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
   ```
+
+### Automation editing tool
+
+  There are two ways to create automation of entities: Editing `automation.yaml` and using `automation editing tool`. Automation editing tool is very useful and easy to understand for novice.
+  
+  ![]()
+  ![]()
+  
+  Also the UI format can be converted to yaml format easy to copy and paste.
+  
+  ![]()
+  ![]()
+  
+  More information can be found at [offical website](https://www.home-assistant.io/integrations/automation).
