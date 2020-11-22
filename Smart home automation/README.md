@@ -5,7 +5,7 @@
 ### [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
 ### [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
 
-    These are projects which I created and finished before, I will use them to make some automation here.
+> These are projects which I created and finished before, I will use them to make some automation here.
 
 ## Useful information and tools of the Home Assistant automation 
 
