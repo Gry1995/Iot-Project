@@ -49,12 +49,12 @@ often necessary to monitor the states and attributes of the entity.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(1).png)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(2).png)
   
-  Basic settings of automation editing tool
+      Basic settings of automation editing tool
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(3).png)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(4).png)
   
-  Convert to yaml format
+      Convert to yaml format
     
 ## 3. External network control
 
