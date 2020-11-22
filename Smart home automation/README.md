@@ -42,13 +42,14 @@ often necessary to monitor the states and attributes of the entity.
 ### Automation editing tool
 
   There are two ways to create automation of entities: Editing `automation.yaml` and using `automation editing tool`. Automation editing tool is very useful and easy to understand for novice.
-  
+  Also the UI format can be converted to yaml format easy to copy and paste.
+  More information can be found at [offical website](https://www.home-assistant.io/integrations/automation).
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(1).png)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(2).png)
   
-    Also the UI format can be converted to yaml format easy to copy and paste.
+    Basic settings of automation editing tool
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(3).png)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(4).png)
   
-    More information can be found at [offical website](https://www.home-assistant.io/integrations/automation).
+    Convert to yaml format
