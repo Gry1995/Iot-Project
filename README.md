@@ -11,5 +11,5 @@ Google Site: https://sites.google.com/view/bingshenli-ee629-project
 ## 7: [Use HASS and ESPHome to control color and On/Off of RGB light strip](https://github.com/Gry1995/Iot-Project/tree/master/Control%20RGB%20light%20strip)
 
 # Final Project: 
-## [Smart home automation based on Home-Assistant.io]()
+## [Smart home automation based on Home-Assistant.io](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation)
 
