@@ -6,6 +6,9 @@
 
   Many devices automations are based on specific time. Add a calendar platform to HASS.io could save a lot of time to set up repetitive tasks. What's more, calendar accounts are also can also be regarded as a log. You can monitor specific function triggers without checking out background records.
 
+![](blank)
+![](blank)
+
 ## 2. Prerequisites
   
   * `Official guide` can be found [here](https://www.home-assistant.io/integrations/calendar.google/#prerequisites)
