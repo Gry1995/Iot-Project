@@ -27,7 +27,7 @@
 ![]()  
   
 ## 2. Pull and install HASS.io
-  1. Install Home Assistant Supervised
+  ### 1. Install Home Assistant Supervised
   ```python
   sudo su
   curl -sL https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh | bash -s
