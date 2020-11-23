@@ -69,3 +69,4 @@ often necessary to monitor the states and attributes of the entity.
 ### 3.2 Google calendar external control
 
   To be update.
+  Relate [project](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md)
