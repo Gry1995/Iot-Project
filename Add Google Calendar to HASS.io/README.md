@@ -18,6 +18,9 @@
     4. Choose the Application type: `TVs and Limited input devices` and create.
     5. After creation, you will get two keys `client ID` and `client secret` similar to the figure below.
     6. Then add keys to configuration.yaml.
+
+![]()
+
      ```python
     # Example configuration.yaml entry
     google:
