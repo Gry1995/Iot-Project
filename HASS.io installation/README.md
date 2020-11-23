@@ -24,6 +24,7 @@
   docker run -d --name portainer --restart unless-stopped -p 9000:9000 -v ~/portaniner/data:/data -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer:linux-arm
   ```
   
+![]()  
   
 ## 2. Pull and install HASS.io
   1. Install Home Assistant Supervised
@@ -36,7 +37,8 @@
   2. Read [Docs](https://www.home-assistant.io/docs/0) for help.
   3. Get HomeKit component if you want to control your devices by iOS or MacOS.
   
-  
+![]()
+
 ## 3. Tips
   1. After several updates in 2020, many community functions have been integrated into the integration, which made many early tutorials no longer applicable. Searching integration and configuring integration need refer to [official documents.](https://www.home-assistant.io/integrations/)
   2. There are other ways to install Home Assistant. You can compare them [here.](https://www.home-assistant.io/docs/installation/)
