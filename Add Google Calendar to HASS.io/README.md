@@ -36,7 +36,8 @@
 ![](blank)
  
 ![](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/message.png)
-![](blank)
+
+
 
 ## 3. Features and settings
 
