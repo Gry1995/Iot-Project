@@ -9,6 +9,7 @@ Google Site: https://sites.google.com/view/bingshenli-ee629-project
 ## 5: [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
 ## 6: [Use Google Sheet to collect data](https://github.com/Gry1995/Iot-Project/blob/master/Use%20Google%20Sheet%20to%20collect%20data/README.md)
 ## 7: [Use HASS and ESPHome to control color and On/Off of RGB light strip](https://github.com/Gry1995/Iot-Project/tree/master/Control%20RGB%20light%20strip)
+## 8: [Add Google Calendar to HASS.io]()
 
 # Final Project: 
 ## [Smart home automation based on Home-Assistant.io](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation)
