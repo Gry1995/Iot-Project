@@ -1,4 +1,4 @@
-# Smart home automation based on Home-Assistant.io
+# Smart Home Automation Based on Home-Assistant.io
 ## 1. Prerequired project:
 
    These are projects which I created and finished before, I will use them to make some automation here.
