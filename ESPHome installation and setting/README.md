@@ -1,6 +1,9 @@
 # ESPHome installation and setting
 > ESPHome is a system to control your ESP8266/ESP32 by simple yet powerful configuration files and control them remotely through Home Automation systems.
 ![](https://esphome.io/_images/logo-text.svg)
+
+![]()
+
 ## Hardware
   1. There are many kinds of hardware support ESPHome: `ESP8266`, `ESP8266 NodeMCU`, `ESP32` and `ESP32 NodeMCU`. And there are also many versions, so be careful the differences of serial port and pin point.
   2. Here I use the `ESP8266 NodeMCUv3`, a latest version with a `CH340` serial port. And I list the reasons why I chose this one:
@@ -11,6 +14,9 @@
       * It is cheap enough, about 5$.
       * The `.yaml` file is easy to configure. Moreover, you could use `ESPeasy` firmware to help you. ([ESPeasy](https://www.letscontrolit.com/wiki/index.php/ESPEasy))
 ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/IMG_3087.jpg)
+
+![]()
+
 ## ESP8266 connect to Wi-Fi(First time): Arduino IDE way
   1. Install `Arduino IDE`, it can be found at Microsoft Store. ([Link](https://www.arduino.cc/en/Main/software))
 ![](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
@@ -47,6 +53,9 @@
 
     }
   ```
+  
+![]()  
+  
 ## ESP8266 connect to Wi-Fi(First time): HASS.io way
   1. Search and install `ESPhome` at your HASS Addon store, or use docker to install.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/addonstore.PNG)
@@ -59,6 +68,8 @@
   6. Install [ESPFlasher](https://github.com/esphome/esphome-flasher/releases), it can add your setting file into the board. 
   7. Now the ESP8266 will connect to the Wi-Fi, it can be upload over the air.
   
+![]()  
+
 ## Connect your ESP board to HASS.io
 
   Example: use ESP8266 to test signal strength.
