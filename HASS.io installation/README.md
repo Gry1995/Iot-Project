@@ -41,7 +41,7 @@
 
 ## 3. Tips
   ### 1. After several updates in 2020, many community functions have been integrated into the integration, which made many early tutorials no longer applicable. Searching integration and configuring integration need refer to [official documents.](https://www.home-assistant.io/integrations/)
-  ### 2. There are other ways to install Home Assistant. You can compare them [here.](https://www.home-assistant.io/docs/installation/)
+  #### 2. There are other ways to install Home Assistant. You can compare them [here.](https://www.home-assistant.io/docs/installation/)
   ### 3. Supervisor offers you many of great features. Recommended install `MQTT` and `File editor`. 
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/HASS.io%20installation/addon.PNG)
