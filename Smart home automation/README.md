@@ -17,8 +17,7 @@
 
 ### 2.1 Developer Tools: 
 
-  * `Developer tools` is original function of HASS.io. It has 4 tabs: `States`, `services`, `template` and `events`. Especially for the first tab, in subsequent projects it is 
-often necessary to monitor the states and attributes of the entity.
+  * `Developer tools` is original function of HASS.io. It has 4 tabs: `States`, `services`, `template` and `events`. Especially for the first tab, in subsequent projects it is  necessary to monitor the states and attributes of the entity.
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/tab.png)
   
