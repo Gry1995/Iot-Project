@@ -82,6 +82,7 @@
   ```
   2. Validate and upload.
   3. You can add the block on your dashboard to show the date (in db)
+  
   ![](https://github.com/Gry1995/Iot-Project/blob/master/ESPHome%20installation%20and%20setting/sensor.PNG)
   
   > It shows unavailable because the ESP8266 is power off
