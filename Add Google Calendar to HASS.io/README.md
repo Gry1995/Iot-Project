@@ -6,7 +6,7 @@
 
   Many devices automations are based on specific time. Add a calendar platform to HASS.io could save a lot of time to set up repetitive tasks. What's more, calendar accounts are also can also be regarded as a log. You can monitor specific function triggers without checking out background records.
 
-![](blank)
+
 ![](blank)
 
 ## 2. Prerequisites
@@ -27,12 +27,13 @@
       client_secret: YOUR_CLIENT_SECRET
     ``` 
 
-![]()
-![]()
+![](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/keys.PNG)
+
+![](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/two%20keys.PNG)
 
   * Restarting the server may take more time than usual, After rebooting, two-step authentication is required in the message bar.
   
-![]()
+![](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/message.png)
 
 ## 3. Features and settings
 
