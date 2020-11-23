@@ -75,5 +75,5 @@
   
   > It shows unavailable because the ESP8266 is power off
   
-  Follow [offical documents] to achive more functions of IoT.
+  Follow [offical documents](https://esphome.io/) to achive more functions of IoT.
 
