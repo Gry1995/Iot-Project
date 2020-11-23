@@ -13,6 +13,8 @@
 
 ## 2. Useful information and tools of the Home Assistant automation 
 
+![]()
+
 ### 2.1 Developer Tools: 
 
   * `Developer tools` is original function of HASS.io. It has 4 tabs: `States`, `services`, `template` and `events`. Especially for the first tab, in subsequent projects it is 
@@ -43,6 +45,8 @@ often necessary to monitor the states and attributes of the entity.
     information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
   ```
 
+![]()
+
 ### 2.2 Automation editing tool
 
   * There are two ways to create automation of entities: Editing `automation.yaml` and using `automation editing tool`. Automation editing tool is very useful and easy to understand for novice.
@@ -67,12 +71,16 @@ often necessary to monitor the states and attributes of the entity.
 
   * HASS.io is generally used as an internal network server, which means that if you want to control entities in the network, the control devices and the Raspberry Pi should to be under the same Wi-Fi. So how to realize remote control through external network is a problem. 
   * Generally, port mapping is used, but it is not recommended. Because there is a risk of privacy and hacking. Here I will use two tricks: HomeKit and Google calendar.
-  
+
+![]()
+
 ### 3.1 HomeKit external control
  
   * Since the lastest version of HASS.io native support HomeKit, [Homebridge](https://www.npmjs.com/package/homebridge) is no longer needed. Use HomeKit to control devices is convenient. However, if you want external control function, you have to set up your HomePod, HomePod mini, Apple TV, or iPad as a [home hub](https://support.apple.com/en-us/HT207057). Also the home hub must connect to the same Wi-Fi as Raspberry Pi's.
   ![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/homepod/ios14-homepod-mini-apple-tv-automation-hero.jpg)
-  
+
+![]()
+
 ### 3.2 Google calendar external control
 
   To be update.
