@@ -16,15 +16,22 @@
     3. After create OAuth consent screen, guide to `Credentials` in the left and then click on `+ Create credentials`.
     4. Choose the Application type: `TVs and Limited input devices` and create.
     5. After creation, you will get two keys `client ID` and `client secret` similar to the figure below.
-
-![]()
-![]()
-
     6. Then add keys to configuration.yaml.
-    
-    ```python
+     ```python
     # Example configuration.yaml entry
     google:
       client_id: YOUR_CLIENT_ID
       client_secret: YOUR_CLIENT_SECRET
-    ```
+    ``` 
+
+![]()
+![]()
+
+  * Restarting the server may take more time than usual, After rebooting, two-step authentication is required in the message bar.
+  
+![]()
+
+## 3. Features and settings
+
+On progress
+
