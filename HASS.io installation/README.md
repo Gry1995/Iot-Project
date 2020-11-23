@@ -1,4 +1,4 @@
-# Install Home Assistant to Raspberry Pi (use docker):
+# Install Home Assistant to Raspberry Pi (Use docker):
 ## 1. Install Docker
   1. Change source if you are outside of US or UK.
   2. Install docker
