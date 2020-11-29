@@ -3,12 +3,12 @@
 * Prerequired project
 * Useful information and tools of the Home Assistant automation
    * Developer Tools
-   *
-* 
-   *
-   *
-   *
-*
+   * Automation editing tool
+* External network control
+   * HomeKit external control
+   * Google calendar external control
+   * An example of external control
+* Voice message reminder automation
 
 ## 1. Prerequired project:
 
