@@ -90,6 +90,11 @@
   Sometimes you may want to turn off the light which connected to the HASS.io at a specific time, but you will not at home at that time. The most convenient external control way is use HomeKit. However if you don't have any IOS devices or a `Home Hub`. You could use the second way: Google calendar external control.
   * #### Remember: The calendar sensor can detect your update at any time, but it does not mean that the system can automatically trigger the response switch. You must set up various automation solutions in advance.
   * Create an automation: 
+    1. First we have to define some states of your attribute. That will help system know which devices we are going to use. Such as we define `kitchen light on` as a key word.
+    2. We have to define which attribute to use: `message` or `description`, these definitions don't need to be set on system, that are the rules made by yourself.
+    3. Here we select attribute `message` and create a nearest new event `title`: kitchen light on.
+    4. Fresh the system and we will find a message attribute of the calendar is kitchen light on.
+    5.
   
   
   
