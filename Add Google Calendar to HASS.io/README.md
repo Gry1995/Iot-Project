@@ -58,8 +58,6 @@
       summary: 'test calendar'
   ```
 
-![]()
-
 ### 3.2 Using calendar as sensor
 
   * The system will check the calendar sometimes, and sensor attributes will follow the nearest event on calendar.
