@@ -1,6 +1,6 @@
 # Smart Home Automation Based on Home-Assistant.io
 ## 0. Catalog:
-* ### Prerequired project
+* ### [Prerequired project](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#1-prerequired-project)
 * ### Useful information and tools of the Home Assistant automation
    * Developer Tools
    * Automation editing tool
