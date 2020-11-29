@@ -88,7 +88,7 @@
 
 ### 3.3 An example of external control
   Sometimes you may want to turn off the light which connected to the HASS.io at a specific time, but you will not at home at that time. The most convenient external control way is use HomeKit. However if you don't have any IOS devices or a `Home Hub`. You could use the second way: Google calendar external control.
-  * However, the calendar sensor can detect your update at any time, but it does not mean that the system can automatically trigger the response switch. You must set up various automation solutions in advance.
+  * `Remember`: The calendar sensor can detect your update at any time, but it does not mean that the system can automatically trigger the response switch. You must set up various automation solutions in advance.
   
   
   
