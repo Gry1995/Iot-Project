@@ -7,7 +7,7 @@
 * ### [GPIO control on HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/HASS.io%20controll%20GPIO%20of%20Pi/README.md)
 * ### [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
 * ### [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
-* ### [Add Google Calendar to HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md) (On progress)
+* ### [Add Google Calendar to HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md)
 
 ![]()
 
@@ -75,17 +75,25 @@
 
 ### 3.1 HomeKit external control
  
-  * Since the lastest version of HASS.io native support HomeKit, [Homebridge](https://www.npmjs.com/package/homebridge) is no longer needed. Use HomeKit to control devices is convenient. However, if you want external control function, you have to set up your HomePod, HomePod mini, Apple TV, or iPad as a [home hub](https://support.apple.com/en-us/HT207057). Also the home hub must connect to the same Wi-Fi as Raspberry Pi's.
+  * Since the lastest version of HASS.io native support HomeKit, [Homebridge](https://www.npmjs.com/package/homebridge) is no longer needed. Use HomeKit to control devices is convenient. However, if you want external control function, you have to set up your HomePod, HomePod mini, Apple TV, or iPad as a [Home Hub](https://support.apple.com/en-us/HT207057). Also the home hub must connect to the same Wi-Fi as Raspberry Pi's.
   ![](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/homepod/ios14-homepod-mini-apple-tv-automation-hero.jpg)
 
 ![]()
 
 ### 3.2 Google calendar external control
-After adding Google calendar to HASS.io, the calendar account will create some sensors. By reading the attributes of these sensors, they can be used as a specific trigger to complete a series of automation. 
-    > Relate [project](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md) 
+  After adding Google calendar to HASS.io, the calendar account will create some sensors. By reading the attributes of these sensors, they can be used as a specific trigger to complete a series of automation. Relate [project](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md) 
   * The system will check the calendar sometimes, and sensor attributes will follow the nearest event on calendar.
   * Sensor attributes include `offset_reached`, `all_day`, `message`, `description`, `location`, `start_time`and `end_time`. 
   * Attributes detail can be found [here](https://www.home-assistant.io/integrations/calendar.google/#sensor-attributes).
 
+### 3.3 An example of external control
+  Sometimes you may want to turn off the light which connected to the HASS.io at a specific time, but you will not at home at that time. The most convenient external control way is use HomeKit. However if you don't have any IOS devices or a `Home Hub`. You could use the second way: Google calendar external control.
+  * However, the calendar sensor can detect your update at any time, but it does not mean that the system can automatically trigger the response switch. You must set up various automation solutions in advance.
+  
+  
+  
+  
+  
+  
   
   To be update.
