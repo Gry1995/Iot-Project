@@ -1,14 +1,15 @@
 # Smart Home Automation Based on Home-Assistant.io
 ## 0. Catalog:
 * ### [Prerequired project](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#1-prerequired-project)
-* ### Useful information and tools of the Home Assistant automation
+* ### [Useful information and tools of the Home Assistant automation](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#2-useful-information-and-tools-of-the-home-assistant-automation)
    * Developer Tools
    * Automation editing tool
-* ### External network control
+* ### [External network control](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#3-external-network-control)
    * HomeKit external control
    * Google calendar external control
    * An example of external control
-* ### Voice message reminder automation
+* ### [Voice message reminder automation](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#4-voice-message-reminder-automation)
+  * To be update
 
 ## 1. Prerequired project:
 
