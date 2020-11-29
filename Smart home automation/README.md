@@ -1,14 +1,14 @@
 # Smart Home Automation Based on Home-Assistant.io
 ## 0. Catalog:
-  * 1. Prerequired project
-  * 2. Useful information and tools of the Home Assistant automation
-   * 2.1 Developer Tools
-   *
-  * 
-   *
-   *
-   *
-  *
+* Prerequired project
+* Useful information and tools of the Home Assistant automation
+ * Developer Tools
+ *
+* 
+ *
+ *
+ *
+*
 
 ## 1. Prerequired project:
 
