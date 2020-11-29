@@ -82,7 +82,7 @@
 
 ### 3.2 Google calendar external control
 After adding Google calendar to HASS.io, the calendar account will create some sensors. By reading the attributes of these sensors, they can be used as a specific trigger to complete a series of automation. 
-  > Relate [project](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md) 
+    > Relate [project](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md) 
   * The system will check the calendar sometimes, and sensor attributes will follow the nearest event on calendar.
   * Sensor attributes include `offset_reached`, `all_day`, `message`, `description`, `location`, `start_time`and `end_time`. 
   * Attributes detail can be found [here](https://www.home-assistant.io/integrations/calendar.google/#sensor-attributes).
