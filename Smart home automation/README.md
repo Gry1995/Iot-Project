@@ -1,8 +1,8 @@
 # Smart Home Automation Based on Home-Assistant.io
 ## 0. Catalog:
-* Prerequired project
-* Useful information and tools of the Home Assistant automation
-   * Developer Tools
+* 1.Prerequired project
+* 2.Useful information and tools of the Home Assistant automation
+   * 2.1Developer Tools
    * Automation editing tool
 * External network control
    * HomeKit external control
