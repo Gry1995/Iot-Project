@@ -1,14 +1,14 @@
 # Smart Home Automation Based on Home-Assistant.io
 ## 0. Catalog:
-* 1.Prerequired project
-* 2.Useful information and tools of the Home Assistant automation
-   * 2.1Developer Tools
+* ### Prerequired project
+* ### Useful information and tools of the Home Assistant automation
+   * Developer Tools
    * Automation editing tool
-* External network control
+* ### External network control
    * HomeKit external control
    * Google calendar external control
    * An example of external control
-* Voice message reminder automation
+* ### Voice message reminder automation
 
 ## 1. Prerequired project:
 
