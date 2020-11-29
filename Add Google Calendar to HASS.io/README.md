@@ -44,5 +44,25 @@
 
 ## 3. Features and settings
 
-On progress
+  * After adding Google Calendar to HASS.io, the system will create a `google_calendars.yaml` file. This file will generate some sensors based on your google calendar account. If you want to use one of them, you have to copy and paste the `cal_id` to the blank of entity.
 
+### 3.1 Create events and dates to calendar
+
+  * In order to add events to calender. You have to call the service of `google.add_event`, fullfill the `cal_id` and `summary`. The `cal_id` is The id of the calendar you want, `summary` is the title of the event.
+  * Optional you can also add `description`, `start_date_time`, `end_date_time` and other [service data attributes](https://www.home-assistant.io/integrations/calendar.google/#service-googleadd_event).
+  * Here is an example to add message 'test calendar'.
+  ```python
+    service: google.add_event
+    data:
+      calendar_id: find at google_calendars.yaml
+      summary: 'test calendar'
+  ```
+
+![]()
+
+### 3.2 Using calendar as sensor
+
+  * The system will check the calendar sometimes, and sensor attributes will follow the nearest event on calendar.
+  * Sensor attributes include `offset_reached`, `all_day`, `message`, `description`, `location`, `start_time`and `end_time`. 
+  * Attributes detail can be found [here](https://www.home-assistant.io/integrations/calendar.google/#sensor-attributes).
+  * By reading the attributes of the calendar, it can be used as a specific trigger to complete a series of automation.
