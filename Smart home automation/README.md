@@ -100,9 +100,9 @@
     8. Next time when the calendar sensor read the `kitchen light on` message again, the automation will excute.
  
 ## 4. Voice message reminder automation 
-  Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added TTS(Text-to-Speech) function to HASS.io, I can use this feature to improve my Smart Home Automation.
+  Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added [TTS(Text-to-Speech)](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io) function to HASS.io, I can use this feature to improve my Smart Home Automation.
   
   
   
   
-  To be update.
+  ### To be update.
