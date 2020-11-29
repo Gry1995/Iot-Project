@@ -2,12 +2,12 @@
 ## 0. Catalog:
 * Prerequired project
 * Useful information and tools of the Home Assistant automation
- * Developer Tools
- *
+   * Developer Tools
+   *
 * 
- *
- *
- *
+   *
+   *
+   *
 *
 
 ## 1. Prerequired project:
