@@ -98,8 +98,9 @@
     6. Set actions and conditions meet the needs of reality.
     7. Delete the event on calendar and fresh the HASS.io system.
     8. Next time when the calendar sensor read the `kitchen light on` message again, the automation will excute.
-  
-  
+ 
+## 4. Voice message reminder automation 
+  Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added TTS(Text-to-Speech) function to HASS.io, I can use this feature to improve my Smart Home Automation.
   
   
   
