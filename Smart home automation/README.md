@@ -114,7 +114,10 @@
     ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/trigger%202.PNG)
     7. Delete the event on calendar and fresh the HASS.io system.
     8. Next time when the calendar sensor read the `kitchen light on` message again, the automation will excute.
- 
+  * ### Because multiple attributes of the calendar sensor can be read, we can add some details when creating the event, for example, here I added the `location` and `time`. On the status page we can see the difference from before.
+  * ### Another thing we need to pay attention to is that the status of the sensor (On or Off) depends on whether there is an event on the calendar at the current time. If there is an all-day event, the state of the sensor shall be `On` for a long time, and the impact on the attribute is still being tested.
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/calendar%202.PNG)
+  ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%202%20condition.PNG)
 ## 4. Voice message reminder automation: 
   Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added [TTS(Text-to-Speech)](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io) function to HASS.io, I can use this feature to improve my Smart Home Automation.
   
