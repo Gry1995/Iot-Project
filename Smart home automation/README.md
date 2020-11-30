@@ -105,9 +105,13 @@
     1. First we have to define some states of your attribute. That will help system know which devices we are going to use. Such as we define `kitchen light on` as a key word.
     2. We have to define which attribute to use: `message` or `description`, these definitions don't need to be set on system, that are the rules made by yourself.
     3. Here we select attribute `message` and create a nearest new event `title`: kitchen light on.
+    ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/calendar%201.PNG)
     4. Fresh the system and we will find a message attribute of the calendar is `kitchen light on`.
-    5. Create a new automation, `triggers type`: states, `entity`: Calendar id, `attribute` `to` on. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on 
+    ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%201%20condition.PNG)
+    5. Create a new automation, `triggers type`: states, `entity`: Calendar id, `attribute` `to` on. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on
     6. Set actions and conditions meet the needs of reality.
+    ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/trigger%201.PNG)
+    ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/trigger%202.PNG)
     7. Delete the event on calendar and fresh the HASS.io system.
     8. Next time when the calendar sensor read the `kitchen light on` message again, the automation will excute.
  
