@@ -200,7 +200,7 @@
   1. The key service is `tts.baidu_say` or `tts.google_say`. The entity is `media_player.mpd`. 
   ![]()
   2. Create an automation and edit `Action` and `Triggers` section. Here is an example of telling temprature at a specific time on calendar. 
-  3. Like steps on 3.3 section `triggers type`: states, `entity`: Calendar id, `attribute` `to` tell the temprature. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on. 
+  3. Like [steps](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/README.md#33-an-example-of-external-control) on 3.3 section `triggers type`: states, `entity`: Calendar id, `attribute` `to` tell the temprature. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on. 
   4. As I mentioned before, `Developer Tools` offers some important states we needed. For temprature we need the function below.
 
 > To return specific attribute:
@@ -222,7 +222,7 @@
   7. With more python scripts and settings, we can achieve more and smarter automation on our system.
   
 ### 5. Plans in the future
-  Voice interaction is a very important function in `IoT`. At present, in terms of interaction, we can only automatically obtain current information through `TTS`, but not through the microphone to tell the system what we need. Joining the AI assistant is an idea, or we can set up a simple voice recognition service： Trigger the specified automated service by detecting the keywords we say. When setting up `Baidu TTS`, I noticed that they also provide a `speech recognition API`, but it is not natively supported by `HASS.io`. In the future, I will try to use the community support in `HACS` ([Everything about HACS](https://hacs.xyz/docs/installation/prerequisites)) and `Addon-Store` ([How to use Addon-store at my previous steps record](https://github.com/Gry1995/Iot-Project/tree/master/HASS.io%20installation#3-supervisor-offers-you-many-of-great-features-recommended-install-mqtt-and-file-editor)) to complete the goal of voice interaction.
+  Voice interaction is a very important function in `IoT`. At present, in terms of interaction, we can only automatically obtain current information through `TTS`, but not through the microphone to tell the system what we need. Joining the AI assistant is an idea, or we can set up a simple voice recognition service： Trigger the specified automated service by detecting the keywords we say. When setting up `Baidu TTS`, I noticed that they also provide a `speech recognition API`, but it is not natively supported by `HASS.io`. In the future, I will try to use the community support in `HACS` ([Everything about HACS](https://hacs.xyz/)) and `Addon-Store` ([How to use Addon-store at my previous steps record](https://github.com/Gry1995/Iot-Project/tree/master/HASS.io%20installation#3-supervisor-offers-you-many-of-great-features-recommended-install-mqtt-and-file-editor)) to complete the goal of voice interaction.
 
 ![]()
 ![]()
