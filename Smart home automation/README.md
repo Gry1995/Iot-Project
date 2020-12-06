@@ -9,7 +9,9 @@
    * Google calendar external control
    * An example of external control
 * ### [Voice message reminder automation](https://github.com/Gry1995/Iot-Project/tree/master/Smart%20home%20automation#4-voice-message-reminder-automation)
-  * To be update
+  * TTS installation
+  * TTS function test
+  * Using TTS service to do some automation
 
 ## 1. Prerequired project:
 
@@ -108,7 +110,7 @@
     ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/calendar%201.PNG)
     4. Fresh the system and we will find a message attribute of the calendar is `kitchen light on`.
     ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%201%20condition.PNG)
-    5. Create a new automation, `triggers type`: states, `entity`: Calendar id, `attribute` `to` on. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on
+    5. Create a new automation, `triggers type`: states, `entity`: Calendar id, `attribute` `to` kitchen light on. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on
     6. Set actions and conditions meet the needs of reality.
     ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/trigger%201.PNG)
     ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/trigger%202.PNG)
@@ -180,4 +182,30 @@
   > Other command:https://docs.mopidy.com/en/latest/running/service/#service-management-on-debian
   
   
-  ### To be update.
+### 4.1 TTS function test
+  
+  1. Add a card of MPD speaker to the dashboard on your HASS.
+  ![]()
+  ![]()
+  2. Connect speaker to your Raspberry Pi or other devices.
+  3. Text some words or speechs on the `Text to speak` bar to test.
+  ![]()
+  4. You will hear the speaker speak words you texted.
+  5. If the step 4 not working, check the history of MPD devices. When the card is showing `off` and was triggered normally, check API and hardware. When the card is showing `unavailable`, please check if MPD server is working or ports does not conflict.
+  ![]()
+    
+### 4.2 Using TTS service to do some automation
+
+  1. The key service is `tts.baidu_say` or `tts.google_say`. The entity is `media_player.mpd`. 
+  ![]()
+  2. Create an automation and edit `Action` and `Triggers` section. Here is an example of telling temprature at a specific time on calendar. 
+  3. Like steps on 3.3 section `triggers type`: states, `entity`: Calendar id, `attribute` `to` tell the temprature. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on. 
+  4. As I mentioned before, `Developer Tools` offers some important states we needed. For temprature we need the function below.
+      To return specific attribute:
+  ```python
+  data: 
+    information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
+  ```
+  
+
+
