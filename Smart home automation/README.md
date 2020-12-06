@@ -203,10 +203,10 @@
   4. As I mentioned before, `Developer Tools` offers some important states we needed. For temprature we need the function below.
 
 > To return specific attribute:
-  ```python
-  data: 
-    information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
-  ```
+>  ```python
+>  data: 
+>    information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
+>  ```
   
 
 
