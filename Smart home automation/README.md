@@ -188,9 +188,9 @@
   1. Add a card of MPD speaker to the dashboard on your HASS.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/card%20configuration.PNG)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/MPD%20cartd.PNG)
-  
   2. Connect speaker to your Raspberry Pi or other devices.
   3. Text some words or speechs on the `Text to speak` bar to test.
+  
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/speak.PNG)
   4. You will hear the speaker speak words you texted.
   5. If the step 4 not working, check the history of MPD devices. When the card is showing `off` and was triggered normally, check API and hardware. When the card is showing `unavailable`, please check if MPD server is working or ports does not conflict.
@@ -201,6 +201,7 @@
 
   1. The key service is `tts.baidu_say` or `tts.google_say`. The entity is `media_player.mpd`. 
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%20mpd.PNG)
+  
   2. Create an automation and edit `Action` and `Triggers` section. Here is an example of telling temprature at a specific time on calendar. 
   3. Like [steps](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/README.md#33-an-example-of-external-control) on 3.3 section `triggers type`: states, `entity`: Calendar id, `attribute` `to` tell the temprature. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on. 
   4. As I mentioned before, `Developer Tools` offers some important states we needed. For temprature we need the function below.
