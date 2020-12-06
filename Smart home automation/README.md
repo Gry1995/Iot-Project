@@ -183,7 +183,7 @@
   > Other command:https://docs.mopidy.com/en/latest/running/service/#service-management-on-debian
   
   
-### 4.1 TTS function test
+### 4.2 TTS function test
   
   1. Add a card of MPD speaker to the dashboard on your HASS.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/card%20configuration.PNG)
@@ -198,7 +198,7 @@
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/triggered.PNG)
 > Triggered history
     
-### 4.2 Using TTS service to do some automation
+### 4.3 Using TTS service to do some automation
 
   1. The key service is `tts.baidu_say` or `tts.google_say`. The entity is `media_player.mpd`. 
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%20mpd.PNG)
