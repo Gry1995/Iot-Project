@@ -188,6 +188,7 @@
   1. Add a card of MPD speaker to the dashboard on your HASS.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/card%20configuration.PNG)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/MPD%20cartd.PNG)
+  
   2. Connect speaker to your Raspberry Pi or other devices.
   3. Text some words or speechs on the `Text to speak` bar to test.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/speak.PNG)
@@ -228,5 +229,6 @@
 
 ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/Addon%20store%20support.PNG)
 > Addon-store
+
 ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/HACS.PNG)
 > HACS
