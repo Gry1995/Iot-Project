@@ -141,7 +141,7 @@
   
   4. Using `MPD` to add the speaker to HASS. [Mopidy](https://docs.mopidy.com/en/latest/installation/) is an extensible music server written in Python.
   5. Add the archive’s GPG key:
-  
+  ****
   ```python
     wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
   ```
