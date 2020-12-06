@@ -122,7 +122,7 @@
   Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added [TTS(Text-to-Speech)](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io) function to HASS.io, I can use this feature to improve my Smart Home Automation.
 
 ### 4.1 TTS installation
-  More detail and method please refer my [previous project]().
+  More detail and method please refer my [previous project](https://github.com/Gry1995/Iot-Project/blob/master/TTS%20on%20Homeassistant.io/README.md).
   [Baidu Cloud](https://login.bce.baidu.com/?lang=en) offers many useful `Ais` and `APIs`, and most of them are free for students such as `Speech Synthesis API`.
   1. Create a program on Baidu `Speech Synthesis API`, and system will generate `app_id` `api_key` `secret_key`, we will need them when we edit the `configuration.yaml` file. 
   2. Click on English or Chinese language pack, you will have three months credit to use this servise for free.
@@ -141,10 +141,12 @@
   
   4. Using `MPD` to add the speaker to HASS. [Mopidy](https://docs.mopidy.com/en/latest/installation/) is an extensible music server written in Python.
   5. Add the archive’s GPG key:
+  
   ```python
     wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
   ```
   6. Add the APT repo to your package sources:
+  
   ```python
     sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/buster.list
   ```
