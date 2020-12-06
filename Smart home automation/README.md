@@ -120,8 +120,59 @@
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%202%20condition.PNG)
 ## 4. Voice message reminder automation: 
   Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added [TTS(Text-to-Speech)](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io) function to HASS.io, I can use this feature to improve my Smart Home Automation.
+
+### 4.1 TTS installation
+  More detail and method please refer my [previous project]().
+  [Baidu Cloud](https://login.bce.baidu.com/?lang=en) offers many useful `Ais` and `APIs`, and most of them are free for students such as `Speech Synthesis API`.
+  1. Create a program on Baidu `Speech Synthesis API`, and system will generate `app_id` `api_key` `secret_key`, we will need them when we edit the `configuration.yaml` file. 
+  2. Click on English or Chinese language pack, you will have three months credit to use this servise for free.
+  3. Edit `configuration.yaml` file to open TTS function.
+  ```python
+    tts:   
+      - platform: baidu      
+        app_id: xxxxxxxxxxxx
+        api_key: xxxxxxxxxxxxxxxxxxxx
+        secret_key: xxxxxxxxxxxxxxxxxxxxxxx
+        speed: 5     
+        pitch: 5     
+        volume: 15     
+        person: 0
+  ```
   
-  
+  4. Using `MPD` to add the speaker to HASS. [Mopidy](https://docs.mopidy.com/en/latest/installation/) is an extensible music server written in Python.
+  5. Add the archive’s GPG key:
+  ```python
+    wget -q -O - https://apt.mopidy.com/mopidy.gpg | sudo apt-key add -
+  ```
+  6. Add the APT repo to your package sources:
+  ```python
+    sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/buster.list
+  ```
+  7. Install `Mopidy` and all dependencies:
+  ```python
+    sudo apt install mopidy
+  ```
+  8. To install `MPD`:
+  ```python
+    sudo apt install mopidy-mpd
+  ```
+  > More intsallation https://docs.mopidy.com/en/latest/installation/
+  9. Edit or create `/etc/mopidy/mopidy.conf` file, add a `MPD` section.
+  ```python
+    [mpd]
+    enabled = true
+    hostname = 127.0.0.1
+    port = 6600
+  ```
+  Or
+  ```python
+    [mpd]
+  ```
+  10. Running as a service:
+  ```python
+    sudo systemctl start mopidy 
+  ```
+  > Other command:https://docs.mopidy.com/en/latest/running/service/#service-management-on-debian
   
   
   ### To be update.
