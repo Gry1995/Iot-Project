@@ -12,6 +12,7 @@
   * TTS installation
   * TTS function test
   * Using TTS service to do some automation
+* ### Plans in the future
 
 ## 1. Prerequired project:
 
@@ -207,6 +208,21 @@
 >  data: 
 >    information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
 >  ```
+
+  5. Edit `Action` section in `UI` or `yaml`.
+  ```python  
+  service: tts.baidu_say
+  data:
+    entity_id: media_player.mpd
+    message: 'temprature is {{states.weather.my_home.attributes.temperature}}'
+  ```
+  ![]()
   
+  6. Save the automation and open it, as soon as the calendar detect the title `tell the temprature`, the speaker will tell you the temprature at that time.
+  7. With more python scripts and settings, we can achieve more and smarter automation on our system.
+  
+### 5. Plans in the future
+  Voice interaction is a very important function in `IoT`. At present, in terms of interaction, we can only automatically obtain current information through `TTS`, but not through the microphone to tell the system what we need. Joining the AI assistant is an idea, or we can set up a simple voice recognition service： Trigger the specified automated service by detecting the keywords we say. When setting up `Baidu TTS`, I noticed that they also provide a `speech recognition API`, but it is not natively supported by `HASS.io`. In the future, I will try to use the community support in `HACS` and `Addon-Store` ([How to install them at my previous steps record]()) to complete the goal of voice interaction.
 
-
+![]()
+![]()
