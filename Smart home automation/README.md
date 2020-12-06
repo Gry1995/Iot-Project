@@ -192,6 +192,7 @@
   3. Text some words or speechs on the `Text to speak` bar to test.
   
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/speak.PNG)
+  
   4. You will hear the speaker speak words you texted.
   5. If the step 4 not working, check the history of MPD devices. When the card is showing `off` and was triggered normally, check API and hardware. When the card is showing `unavailable`, please check if MPD server is working or ports does not conflict.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/triggered.PNG)
