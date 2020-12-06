@@ -13,7 +13,7 @@
   * TTS function test
   * Using TTS service to do some automation
 * ### Plans in the future
-
+**** 
 ## 1. Prerequired project:
 
    These are projects which I created and finished before, I will use them to make some automation here.
@@ -23,8 +23,7 @@
 * ### [ESPHome installation and setting](https://github.com/Gry1995/Iot-Project/tree/master/ESPHome%20installation%20and%20setting)
 * ### [TTS (Text-to-Speech) on HASS.io](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io)
 * ### [Add Google Calendar to HASS.io](https://github.com/Gry1995/Iot-Project/blob/master/Add%20Google%20Calendar%20to%20HASS.io/README.md)
-
-![]()
+**** 
 
 ## 2. Useful information and tools of the Home Assistant automation: 
 
@@ -80,7 +79,7 @@
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/auto%20(4).png)
   
       Convert to yaml format
-    
+****     
 ## 3. External network control:
 
   * HASS.io is generally used as an internal network server, which means that if you want to control entities in the network, the control devices and the Raspberry Pi should to be under the same Wi-Fi. So how to realize remote control through external network is a problem. 
@@ -121,6 +120,7 @@
   * ### Another thing we need to pay attention to is that the status of the sensor (On or Off) depends on whether there is an event on the calendar at the current time. If there is an all-day event, the state of the sensor shall be `On` for a long time, and the impact on the attribute is still being tested.
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/calendar%202.PNG)
   ![](https://github.com/Gry1995/Iot-Project/blob/master/Smart%20home%20automation/Pictures/entity%202%20condition.PNG)
+**** 
 ## 4. Voice message reminder automation: 
   Voice reminder is a very useful and convenient part of smart home automation. At previous project, we have already added [TTS(Text-to-Speech)](https://github.com/Gry1995/Iot-Project/tree/master/TTS%20on%20Homeassistant.io) function to HASS.io, I can use this feature to improve my Smart Home Automation.
 
@@ -225,7 +225,7 @@
   
   6. Save the automation and open it, as soon as the calendar detect the title `tell the temprature`, the speaker will tell you the temprature at that time.
   7. With more python scripts and settings, we can achieve more and smarter automation on our system.
-  
+****   
 ### 5. Plans in the future
   #### Voice interaction is a very important function in `IoT`. At present, in terms of interaction, we can only automatically obtain current information through `TTS`, but not through the microphone to tell the system what we need. Joining the AI assistant is an idea, or we can set up a simple voice recognition service： Trigger the specified automated service by detecting the keywords we say. 
   When setting up `Baidu TTS`, I noticed that they also provide a `speech recognition API`, but it is not natively supported by `HASS.io`. In the future, I will try to use the community support in `HACS` ([Everything about HACS](https://hacs.xyz/)) and `Addon-Store` ([How to use Addon-store at my previous steps record](https://github.com/Gry1995/Iot-Project/tree/master/HASS.io%20installation#3-supervisor-offers-you-many-of-great-features-recommended-install-mqtt-and-file-editor)) to complete the goal of voice interaction.
