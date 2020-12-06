@@ -201,7 +201,8 @@
   2. Create an automation and edit `Action` and `Triggers` section. Here is an example of telling temprature at a specific time on calendar. 
   3. Like steps on 3.3 section `triggers type`: states, `entity`: Calendar id, `attribute` `to` tell the temprature. Add another trigger, `triggers type`: states, `entity`: Calendar id, `to`: on. 
   4. As I mentioned before, `Developer Tools` offers some important states we needed. For temprature we need the function below.
-      To return specific attribute:
+
+> To return specific attribute:
   ```python
   data: 
     information: {{states.weather.my_home.attributes.temperature}} # Will return -1.
